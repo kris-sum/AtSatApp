@@ -1,0 +1,140 @@
+/* 
+
+tracking section 
+
+Styles for objects placed in the tracking view
+
+*/
+
+
+.next-pass-info { 
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  color: #4E99D8;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.next-pass-info span {
+  display: block;
+  text-transform: capitalize;
+}
+
+/* Compass points */
+.label-compass {
+  pointer-events: none;
+  position : absolute;
+  top : -200px;
+  left : 0px;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+
+/* stars */
+
+.label-star {
+  pointer-events: none;
+  font-size:10px;
+  color:#ccc;
+}
+
+
+
+/* Sun Object */
+
+#sunObject {
+  height: 450px;
+  width: 450px;
+  pointer-events: none;
+  position: absolute;
+  top: -5000px;
+  left: 0px;
+  background: url('../images/sun.png');
+  margin-top: -225px;
+  margin-left: -225px;
+}
+
+/* Moon Object */
+
+#moonObject {
+  height: 350px;
+  width: 350px;
+  pointer-events: none;
+  position: absolute;
+  top: -5000px;
+  left:0px;
+  background: url('../images/moon.png');
+  margin-top: -175px;
+  margin-left: -175px;
+}
+
+
+/* ISS Object */
+
+.iss-wrapper {
+  pointer-events: none;
+  position: absolute;
+  top: -5000px;
+  left:0px;
+  width: 110px;
+  height: 110px;
+  border: 2px solid #7ED321;
+  border-radius: 55px;
+}
+
+.stats td.onboard {
+  color: white;
+  text-align: left;
+}
+
+.crew {
+  display: block;
+  float: right;
+  
+}
+
+.crew i {
+  padding-right: 3px;
+}
+
+
+.crew i:last-child {
+  padding-right: 0;
+}
+
+i.fa-mars {
+  font-size: 12px;
+}
+
+i.fa-venus {
+  font-size: 14px;
+}
+
+.iss-center {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin: 43px 0 0 43px;
+  background-color: #9d9d9d;
+}
+
+#iss-update-wrapper {
+  pointer-events: none;
+  position: absolute;
+  top: -5000px;
+  left:0px;
+  color: white;
+  width: 175px;
+}
+
+.iss-update {
+  font-size: 10px;
+  margin: 0;
+}
+.iss-update th { white-space:nowrap; }
+
+
+

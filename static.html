@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>AtSat an education tool for viewing iss</title>
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+
+    <!-- CSS -->
+    <link href="css/ui.css" rel="stylesheet" />
+    <link href="css/global.css" rel="stylesheet" />
+    <!-- <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'> -->
+
+    <!-- JS 
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.js"></script>
+    <script src="DeviceOrientationController.js"></script>
+    <script src="lib/CanvasRenderer.js"></script>
+    <script src="lib/Projector.js"></script>
+    <script src="js/spaceApp.js"></script>
+    <script src="js/issStts.js"></script>-->
+
+    <style>
+    	body { margin:0px; padding:0px; }
+    	#debug-container span { margin:0px 1em;}
+    </style>
+</head>
+
+<body >
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/ie.css">
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="infoView-wrapper active" >
+      <div class="content-col cen-vert">
+        <h1>AT.STAT</h1>
+        
+          <div class="table-wrap clearfix">
+            <table id="userlocation" class="currentLocation stats">
+              <tr>
+                <th>Location</th>
+                <td class="userLocal">Exeter</td>
+              </tr>
+            </table>
+
+            <table id="next-pass-location" class="nextPass stats">
+              <tr>
+                <th>Date</th>
+                <td class="dateVal">loading...</td>
+              </tr>
+            </table>
+
+          
+            <table  id="next-pass-stats" class="stats left">
+              <tr>
+                <th>Time</th>
+                <td class="timeVal">loading...</td>
+              </tr>
+              <tr>
+                <th>Duration</th>
+                <td class="durationVal">loading...</td>
+              </tr>
+            </table>
+
+
+            <table id="forecast" class="stats right">
+              <tr>
+                <th>Summary</th>
+                <td class="summaryVal">loading...</td>
+              </tr>
+              <tr>
+                <th>Cloud cover</th>
+                <td class="cloudVal">loading...</td>
+              </tr>
+              <tr>
+                <th>Visibility</th>
+                <td class="visibilityVal">loading...</td>
+              </tr>
+              <tr>
+                <th>Sky type</th>
+                <td class="skyTypeVal">loading...</td>
+              </tr>
+            </table>
+          </div>
+
+          <p class="stats-note">Cloud cover : 1 overcast  0 no cloud<br>
+            Nightsky value shows time since sunset.<br>
+            Daysky value shows time till sunset</p>
+
+          <div class="close-wrapper">
+          <a href="#" id="info--close" class="close">Locate ISS</a>
+          </div>
+      </div>
+      <div class="earth-image"><img src="images/earth-image.jpg"></div>
+    </div>
+    <!-- #infoView-wrapper -->
+
+    <div id="locatorView" class="locatorView-wrapper">
+      <div class="open-holder"><a href="#" id="info--open" class="open">Info</a></div>
+        <div>
+        </div>
+              <table id="iss-live-update" class="iss-update stats">
+                  <tr>
+                    <th>Altitude</th>
+                    <td class="altitude">loading...</td>
+                  </tr>
+                  <tr>
+                    <th>Velocity</th>
+                    <td class="velocity">loading...</td>
+                  </tr>
+                  <tr>
+                    <th>Effecting light</th>
+                    <td class="visibility">loading...</td>
+                  </tr>
+              </table>
+        <div id="container">
+        </div>
+    </div>
+</body>
+</html>

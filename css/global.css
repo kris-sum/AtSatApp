@@ -1,0 +1,90 @@
+/**
+
+  @reset
+---------------------------------------------------------
+  base/_reset.scss
+--------------------------------------------------------
+
+  This reset institutes the border-box box model and then
+  block and margin/padding resets.
+
+  Throughout Skyline, each partial has it's own resets.
+  This allows you to only use what you need.
+
+  Credit goes to Normalize
+  http://normalize.css v2.1.0 http://git.io/normalize
+
+--------------------------------------------------------- */
+*, *:before, *:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary,
+audio,
+canvas,
+video {
+  display: block; }
+
+/**
+
+  @helper
+---------------------------------------------------------
+  main/_helper.scss
+
+  Main helper styles
+
+--------------------------------------------------------- */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+
+body {
+  background-color: black;
+  padding: 2px;
+  font-family: 'Inconsolata', Courier, monospace;
+  font-size-adjust: 0.5;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 18px; 
+}
+
+
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+html {
+  box-sizing: border-box;
+  height: 100%; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  height: 100%; 
+}
+
+/* page app like construction */
+

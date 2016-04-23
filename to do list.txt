@@ -1,0 +1,45 @@
+BUGS
+
+- As soon as a Pass starts "next pass" is shown - even though one is "in progress"!
+
+FEATURES
+
+Location view
+
+- indicate which way to orientate device to find ISS
+
+
+Stats view
+
+- make the earth image a .png with transparency
+
+
+
+Other
+
+- Add some instructions and guide to spotting
+
+- enable full screen / homescreen view iOS
+
+- favicons
+
+- about / credits / external resources / sources etc
+
+
+Future (ever?)
+
+- Add facility to see view from ISS looking down. (Like http://wsn.spaceflight.esa.int/iss/index_portal.php)
+
+- update ISS object with 'affecting light' value (e.g eclipsed = darkest, sunlight = brightest)
+
+- update sky background to reflect time of day (sunrise data from forecast.io) to indicate visability.
+
+- update positions less often if ISS is on the other side of the planet. 
+
+- Regiter domain name
+
+- Update Moon object in Location view to reflect moonPhase from forecast. E.g. Full moon / Half moon etc.
+
+- Lense flare on the sun please :)
+
+- show 'trail' of ISS previous flight path

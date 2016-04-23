@@ -1,0 +1,15 @@
+/* TEAM */
+
+Jon Day, Jamie Reynolds (@jamusreynolds), Kris Sum (@switchsystems) & Boris Tane
+                            
+/* SITE */
+                         
+Last update: 2015/04/20 
+                            
+Tech stack:  PyEphem, Three.js, jQuery, DeviceOrientation, Geolocation, Caffine.
+
+API's referenced: api.forecast.io, api.wheretheiss.at
+
+/* THANKS */
+							
+Name: @spaceapps, @spaceappsexeter & @metoffice
